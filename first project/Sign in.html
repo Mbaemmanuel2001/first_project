@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA compatiable" content="ie=edge">
+    <title> From</title>
+    <link href="form.css"  rel="stylesheet" type="text/css">
+</head>
+<body>
+    <header> 
+        <div class="top">
+            <ul class="ctr-acc">
+                <h1><b><u>Create Account</u></b></h1>
+            </ul>
+        </div>
+        <form action="index.html" method="GET" enctype="multipart/form-data">
+            <div>
+                <p><label for ="name">First Name</label>
+                <input type="name" name="name" id ="name" placeholder="First Name" required>
+                <label for ="name">Middle Name</label>
+                <input type="name" name="name" id ="name" placeholder="Middle Name" required>
+                <label for ="name">Last Name</label>
+                <input type="name" name="name" id ="name" placeholder="Last Name" required></p>        
+            </div>
+            <div>
+                <p><label for ="username">UserName</label>
+                <input type="name" name="name" id ="name" placeholder="username" required>
+                <label for ="email">Email</label>
+                    <input type="email" name="email" id ="email" placeholder="email" required></p>
+            </div>
+            
+            <div>
+                <label for="profile">profile</label>
+                <input id="profile" type="file" name="profile" required>
+                <label for ="age">Age</label>
+                <input type ="number" name="age" id ="age" placeholder="Age" required min="1" max="90" step="1">
+            </div>
+   
+            <div>
+                <p><label for="Phone number">Phone Number</label>
+                <input type="tel" name="phone number" id="phone number" placeholder="+234" required>
+                <label for="url">URL</label>
+                <input type="url" name="url" id="url"></p>
+            </div>
+        
+            <div>
+                <p><label for ="date">Date of Birth</label>
+                <input type="date" name="date" id ="date" placeholder="Date of Birth" required min="1990-1-1" max="2020-12-12"></p>
+            </div>
+            <div>
+                <u><b>Favourite Food</b></u>
+                <div>
+                    <div>
+                        <label for ="banana">Banana</label>
+                        <input type="radio" name="food" id ="banana">
+                        <label for ="apple">Apple</label>
+                        <input type="radio" name="food" id ="apple">
+                        <label for ="orange">Orange</label>
+                        <input type="radio" name="food" id ="orange">
+                    </div>             
+                </div>
+                <div>
+                    <p><label for="color">Favourite Color</label>
+                    <input type="color" name="color" id="color" required></p>
+                </div>
+                <div>
+                <b><u>Gender</u></b>
+                </div>
+                <div>
+                    <label for ="male">Male</label>
+                    <input type="radio" name="Gender" id ="male" value="Male">
+                    <label for ="female">Female</label>
+                    <input type="radio" name="Gender" id ="female" value="Female">
+                </div>
+                <div>
+                    <label for ="skin color">Skin Color</label>
+                    <select name="skin color" id="skin color">
+                        <option value="fair">Fair</option>
+                        <option value="dark">Dark</option>
+                 </select>
+                   <label for="bio">Bio </label>
+                    <textarea id="bio" name="Bio" required></textarea>
+                </div>
+            </div>
+            <input type="Hidden" name="Nationality" value="Nigerian">
+            <div>
+                <p><label>
+                    Password
+                    <input type="password" name= "password" placeholder="*************" required>
+                </label>
+                <label>
+                    Comfirm Password
+                    <input type="password" name= "password" placeholder="*************" required>
+                </label></p>
+            </div>
+            <div>
+            
+        </div>
+        <div>
+           <label for ="robot">I am not a Robot </label>
+            <input type="radio" name="robot" id ="robot" value="robot">
+        </div>
+            <button type="reset">Reset</button>
+            <button type="submit">Register</button>            
+        </form>
+        <div>
+            <h3>I do have a Portfolio Account</h3>
+            <button li><a href="sign up.html">Sign Up</a></li></a></button>
+        </div>
+    </header>
+</body>
+</html>
